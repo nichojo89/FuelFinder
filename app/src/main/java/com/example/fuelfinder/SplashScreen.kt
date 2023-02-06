@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.WindowManager
+import com.google.android.libraries.places.api.Places
 
 class SplashScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,5 +23,15 @@ class SplashScreen : AppCompatActivity() {
             startActivity(intent)
             finish()
         },3000)
+
+    }
+
+    /**
+     * Initialize app service on launch
+     */
+    private fun bootStrap(){
+        // Initialize Google Places SDK
+        Places.initialize(applicationContext, "AIzaSyCf0igQQ6pNQenVuAvkJU4pPmOiGHG5B80")
+        val placesClient = Places.createClient(this)
     }
 }
