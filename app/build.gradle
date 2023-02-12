@@ -1,18 +1,18 @@
 plugins {
     id 'com.android.application'
-    id 'org.jetbrains.kotlin.android'
-    //Google Maps
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
     id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
 }
 
 android {
-    namespace 'com.example.fuelfinder'
-    compileSdk 33
+    compileSdk 32
+    buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.example.fuelfinder"
-        minSdk 24
-        targetSdk 33
+        applicationId "com.nicholssoftware.fuelfinder"
+        minSdk 21
+        targetSdk 32
         versionCode 1
         versionName "1.0"
 
@@ -25,18 +25,18 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
+
 }
 
+// [START maps_android_add_map_codelab_ktx_dependency]
 dependencies {
-
-    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1"
+    // [START_EXCLUDE]
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    testImplementation 'junit:junit:4.13.2'
 
     // Dependency to include Maps SDK for Android
     implementation 'com.google.android.gms:play-services-maps:18.0.2'
@@ -49,15 +49,11 @@ dependencies {
     // Maps SDK for Android Utility Library KTX Library
     implementation 'com.google.maps.android:maps-utils-ktx:3.0.0'
 
-    //Google Places
-    implementation 'com.google.maps.android:places-ktx:2.0.0'
-    implementation 'com.google.android.libraries.places:places:3.0.0'
+    // Lifecycle Runtime KTX Library
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.4.1'
+}
+// [END maps_android_add_map_codelab_ktx_dependency]
 
-    implementation 'androidx.core:core-ktx:1.7.0'
-    implementation 'androidx.appcompat:appcompat:1.4.1'
-    implementation 'com.google.android.material:material:1.5.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+secrets {
+    defaultPropertiesFileName = 'local.properties.defaults'
 }

@@ -1,20 +1,30 @@
-package com.example.fuelfinder
+// Copyright 2020 Google LLC
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
 
-import androidx.appcompat.app.AppCompatActivity
+package com.google.codelabs.fuelfinder
+
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.lifecycleScope
-import com.example.fuelfinder.data.place.Place
-import com.example.fuelfinder.framework.BitmapHelper
-import com.example.fuelfinder.framework.MarkerInfoWindowAdapter
-import com.example.fuelfinder.framework.PlacesReader
-import com.example.fuelfinder.presentation.renderers.PlaceRenderer
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.SupportMapFragment
-import com.google.android.gms.maps.model.BitmapDescriptor
-import com.google.android.gms.maps.model.Circle
-import com.google.android.gms.maps.model.LatLngBounds
+import com.google.android.gms.maps.model.*
+import com.google.codelabs.fuelfinder.place.Place
+import com.google.codelabs.fuelfinder.place.PlaceRenderer
+import com.google.codelabs.fuelfinder.place.PlacesReader
 import com.google.maps.android.clustering.ClusterManager
 import com.google.maps.android.ktx.addCircle
 import com.google.maps.android.ktx.addMarker
@@ -22,18 +32,17 @@ import com.google.maps.android.ktx.awaitMap
 import com.google.maps.android.ktx.awaitMapLoad
 
 class MainActivity : AppCompatActivity() {
+
     private val places: List<Place> by lazy {
         PlacesReader(this).read()
     }
 
-    companion object {
-        val TAG = MainActivity::class.java.simpleName
-    }
+    // [START maps_android_add_map_codelab_ktx_coroutines]
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val mapFragment = supportFragmentManager.findFragmentById(R.id.map_fragment) as SupportMapFragment
+        val mapFragment =
+            supportFragmentManager.findFragmentById(R.id.map_fragment) as SupportMapFragment
         lifecycleScope.launchWhenCreated {
             // Get map
             val googleMap = mapFragment.awaitMap()
@@ -49,6 +58,7 @@ class MainActivity : AppCompatActivity() {
             googleMap.moveCamera(CameraUpdateFactory.newLatLngBounds(bounds.build(), 20))
         }
     }
+    // [END maps_android_add_map_codelab_ktx_coroutines]
 
     /**
      * Adds markers to the map with clustering support.
@@ -93,6 +103,9 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    private var circle: Circle? = null
+
+    // [START maps_android_add_map_codelab_ktx_add_circle]
     /**
      * Adds a [Circle] around the provided [item]
      */
@@ -109,7 +122,7 @@ class MainActivity : AppCompatActivity() {
 
     private val bicycleIcon: BitmapDescriptor by lazy {
         val color = ContextCompat.getColor(this, R.color.colorPrimary)
-        BitmapHelper.vectorToBitmap(this, R.drawable.baseline_local_gas_station_24, color)
+        BitmapHelper.vectorToBitmap(this, R.drawable.ic_directions_bike_black_24dp, color)
     }
 
     // [START maps_android_add_map_codelab_ktx_add_markers]
@@ -128,6 +141,9 @@ class MainActivity : AppCompatActivity() {
             marker?.tag = place
         }
     }
+    // [END maps_android_add_map_codelab_ktx_add_markers]
 
-    private var circle: Circle? = null
+    companion object {
+        val TAG = MainActivity::class.java.simpleName
+    }
 }
