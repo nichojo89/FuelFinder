@@ -11,7 +11,7 @@
       android:id="@+id/map_fragment"
       class="com.google.android.gms.maps.SupportMapFragment"
       android:layout_width="match_parent"
-      android:layout_height="wrap_content" />
+      android:layout_height="400.dp" />
   <ListView
       android:id="@+id/lv_fuel_locations_list"
       android:layout_width="match_parent"

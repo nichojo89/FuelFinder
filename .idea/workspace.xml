@@ -10,19 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f45f68f1-cd7b-492e-8bf7-52683f4b4bef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_local_gas_station_24.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/BitmapHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/BitmapHelper.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/MainActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/MarkerInfoWindowAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/MarkerInfoWindowAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/place/Place.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/place/Place.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/place/PlaceRenderer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/place/PlaceRenderer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/place/PlacesReader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/place/PlacesReader.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/place/PlacesResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/place/PlacesResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/place/Place.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/entities/place/Place.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/place/PlaceRenderer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/presentation/PlaceRenderer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/place/PlacesReader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/framework/PlacesReader.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/place/PlacesResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/entities/place/PlacesResponse.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/raw/places.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/raw/places.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,6 +114,9 @@
       <recent name="$PROJECT_DIR$/app/src/main/res/raw" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.nicholssoftware.fuelfinder.framework" />
+      <recent name="com.nicholssoftware.fuelfinder.presentation" />
+      <recent name="com.nicholssoftware.fuelfinder.entities.place" />
       <recent name="com.example.fuelfinder.data.place" />
     </key>
   </component>

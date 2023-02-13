@@ -20,15 +20,12 @@ import android.view.View
 import android.widget.TextView
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.model.Marker
-import com.nicholssoftware.fuelfinder.R
-import com.nicholssoftware.fuelfinder.place.Place
+import com.nicholssoftware.fuelfinder.entities.place.Place
 
 class MarkerInfoWindowAdapter(private val context: Context) : GoogleMap.InfoWindowAdapter {
     override fun getInfoContents(marker: Marker): View? {
-        // 1. Get tag
         val place = marker.tag as? Place ?: return null
 
-        // 2. Inflate view and set title, address and rating
         val view = LayoutInflater.from(context)
             .inflate(R.layout.marker_info_contents, null)
         view.findViewById<TextView>(R.id.text_view_title).text = place.name
@@ -39,7 +36,6 @@ class MarkerInfoWindowAdapter(private val context: Context) : GoogleMap.InfoWind
     }
 
     override fun getInfoWindow(marker: Marker): View? {
-        // Return null to indicate that the default window (white bubble) should be used
         return null
     }
 }
