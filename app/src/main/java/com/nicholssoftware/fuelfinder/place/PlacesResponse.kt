@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.google.codelabs.fuelfinder.place
+package com.nicholssoftware.fuelfinder.place
 
 import com.google.android.gms.maps.model.LatLng
 

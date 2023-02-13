@@ -16,7 +16,7 @@
                 }
             }
         },
-        "name": "Valencia Cyclery",
+        "name": "Exxon",
         "rating": 4.2,
         "vicinity": "1077 Valencia Street, San Francisco"
     },
@@ -37,7 +37,7 @@
                 }
             }
         },
-        "name": "San Francisco Bicycle Rentals",
+        "name": "Loves",
         "rating": 4.5,
         "vicinity": "425 Jefferson Street, San Francisco"
     },
@@ -58,7 +58,7 @@
                 }
             }
         },
-        "name": "Mike's Bikes of San Francisco",
+        "name": "Mobile",
         "rating": 4,
         "vicinity": "1233 Howard Street, San Francisco"
     },
@@ -79,7 +79,7 @@
                 }
             }
         },
-        "name": "Blazing Saddles Bike Rentals & Tours",
+        "name": "Exxon",
         "rating": 4.1,
         "vicinity": "2715 Hyde Street, San Francisco"
     },
@@ -100,7 +100,7 @@
                 }
             }
         },
-        "name": "Huckleberry Bicycles",
+        "name": "Loves",
         "rating": 4.7,
         "vicinity": "Huckleberry Bicycles, 1073 Market Street, San Francisco"
     },
@@ -121,7 +121,7 @@
                 }
             }
         },
-        "name": "American Cyclery",
+        "name": "TA",
         "rating": 4.5,
         "vicinity": "510 Frederick Street, San Francisco"
     },
@@ -142,7 +142,7 @@
                 }
             }
         },
-        "name": "The New Wheel Electric Bikes",
+        "name": "Circle K",
         "rating": 4.8,
         "vicinity": "420 Cortland Avenue, San Francisco"
     },
@@ -163,7 +163,7 @@
                 }
             }
         },
-        "name": "Box Dog Bikes",
+        "name": "Mobile",
         "rating": 4.4,
         "vicinity": "494 14th Street, San Francisco"
     },
@@ -184,7 +184,7 @@
                 }
             }
         },
-        "name": "The Bike Kitchen",
+        "name": "BP",
         "rating": 4.8,
         "vicinity": "650H Florida Street, San Francisco"
     },
@@ -205,7 +205,7 @@
                 }
             }
         },
-        "name": "Nomad Cyclery",
+        "name": "Shell",
         "rating": 4.2,
         "vicinity": "2555 Irving Street, San Francisco"
     },
@@ -226,7 +226,7 @@
                 }
             }
         },
-        "name": "Avenue Cyclery",
+        "name": "Sunoco",
         "rating": 4.8,
         "vicinity": "756 Stanyan Street, San Francisco"
     },
@@ -247,7 +247,7 @@
                 }
             }
         },
-        "name": "Bike Connection",
+        "name": "Shell",
         "rating": 4.7,
         "vicinity": "1090 Folsom Street, San Francisco"
     },
@@ -268,7 +268,7 @@
                 }
             }
         },
-        "name": "Big Swingin' Cycles",
+        "name": "Circle K",
         "rating": 4.7,
         "vicinity": "2260 Van Ness Avenue, San Francisco"
     },
@@ -289,7 +289,7 @@
                 }
             }
         },
-        "name": "Ocean Cyclery",
+        "name": "Loves",
         "rating": 4.2,
         "vicinity": "1935 Ocean Avenue, San Francisco"
     },
@@ -310,7 +310,7 @@
                 }
             }
         },
-        "name": "New Holiday Adventure Sale",
+        "name": "BP",
         "rating": 4.7,
         "vicinity": "1937 Lombard Street, San Francisco"
     },
@@ -331,7 +331,7 @@
                 }
             }
         },
-        "name": "Columbus Cyclery Go Bike It",
+        "name": "TA",
         "rating": 4.3,
         "vicinity": "2011 Mason Street, San Francisco"
     },
@@ -352,7 +352,7 @@
                 }
             }
         },
-        "name": "3D Bike Fit",
+        "name": "Circle K",
         "rating": 4.8,
         "vicinity": "1299 Bush Street suite c, San Francisco"
     },
@@ -373,7 +373,7 @@
                 }
             }
         },
-        "name": "Market Street Cycles",
+        "name": "TA",
         "rating": 4.7,
         "vicinity": "1592 Market Street, San Francisco"
     },
@@ -394,7 +394,7 @@
                 }
             }
         },
-        "name": "Freewheel Bike Shop",
+        "name": "Sunoco",
         "rating": 4.4,
         "vicinity": "1920 Hayes Street #1126, San Francisco"
     },
@@ -415,7 +415,7 @@
                 }
             }
         },
-        "name": "Bespoke Cycles",
+        "name": "Shell",
         "rating": 4.1,
         "vicinity": "2843 Clay Street, San Francisco"
     },
@@ -436,7 +436,7 @@
                 }
             }
         },
-        "name": "The Bike Hut",
+        "name": "Mobile",
         "rating": 4.8,
         "vicinity": "40 Pier Suite #15, San Francisco"
     },
@@ -457,7 +457,7 @@
                 }
             }
         },
-        "name": "Warm Planet Bikes",
+        "name": "Circle K",
         "rating": 4.6,
         "vicinity": "1098A Market Street, San Francisco"
     },
@@ -478,7 +478,7 @@
                 }
             }
         },
-        "name": "Bay City Bike Rentals and Tours",
+        "name": "TA",
         "rating": 2.8,
         "vicinity": "622 Shrader Street, San Francisco"
     },
@@ -499,7 +499,7 @@
                 }
             }
         },
-        "name": "Swell Bicycles",
+        "name": "BP",
         "rating": 4.7,
         "vicinity": "4002 Irving Street, San Francisco"
     },
@@ -520,7 +520,7 @@
                 }
             }
         },
-        "name": "Spoke Easy SF",
+        "name": "Loves",
         "rating": 4.8,
         "vicinity": "1901 Clement Street, San Francisco"
     },
@@ -541,7 +541,7 @@
                 }
             }
         },
-        "name": "Roaring Mouse Cycles",
+        "name": "Circle K",
         "rating": 4.8,
         "vicinity": "934 Mason Street, San Francisco"
     },
@@ -562,7 +562,7 @@
                 }
             }
         },
-        "name": "Trek Bicycle San Francisco Cow Hollow",
+        "name": "Sunoco",
         "rating": 4.9,
         "vicinity": "3001 Steiner Street, San Francisco"
     },
@@ -583,7 +583,7 @@
                 }
             }
         },
-        "name": "San Francisco Yellow Bike Project",
+        "name": "Mobile",
         "rating": 4.9,
         "vicinity": "530 Ellis Street, San Francisco"
     },
@@ -604,7 +604,7 @@
                 }
             }
         },
-        "name": "Moox, Inc",
+        "name": "Shell",
         "vicinity": "550 15th Street M15, San Francisco"
     },
     {
@@ -624,7 +624,7 @@
                 }
             }
         },
-        "name": "Golden Gate Rides Bike Rentals & Tours",
+        "name": "Sunoco",
         "rating": 4.8,
         "vicinity": "609 O'Farrell Street, San Francisco"
     },
@@ -645,7 +645,7 @@
                 }
             }
         },
-        "name": "P-Fits/Fitted By Pedro",
+        "name": "Shell",
         "rating": 5,
         "vicinity": "1601 North Point Street, San Francisco"
     },
@@ -666,7 +666,7 @@
                 }
             }
         },
-        "name": "aluguel de Bikes",
+        "name": "Sunoco",
         "vicinity": "2662 Taylor Street, San Francisco"
     },
     {
@@ -686,7 +686,7 @@
                 }
             }
         },
-        "name": "Velocipede Cyclery",
+        "name": "Circle K",
         "rating": 4.8,
         "vicinity": "2405 3rd Street, San Francisco"
     },
@@ -707,7 +707,7 @@
                 }
             }
         },
-        "name": "Mash Transit",
+        "name": "Shell",
         "rating": 4.9,
         "vicinity": "284 Sanchez Street, San Francisco"
     },
@@ -728,7 +728,7 @@
                 }
             }
         },
-        "name": "San Francyclo",
+        "name": "Loves",
         "rating": 4.4,
         "vicinity": "746 Arguello Boulevard, San Francisco"
     },
@@ -749,7 +749,7 @@
                 }
             }
         },
-        "name": "Everybody Bikes",
+        "name": "Sunoco",
         "rating": 4.2,
         "vicinity": "1352 Irving Street, San Francisco"
     },
@@ -770,7 +770,7 @@
                 }
             }
         },
-        "name": "High Trails Cyclery & Mountain Bike Adventure Tours",
+        "name": "Speedway",
         "rating": 4.8,
         "vicinity": "1825 Polk Street, San Francisco"
     },
@@ -791,7 +791,7 @@
                 }
             }
         },
-        "name": "ONYX Motorbikes",
+        "name": "TA",
         "rating": 4.1,
         "vicinity": "455 Irwin Street #104, San Francisco"
     },
@@ -812,7 +812,7 @@
                 }
             }
         },
-        "name": "DICK'S Sporting Goods",
+        "name": "Shell",
         "rating": 3.7,
         "vicinity": "64 Serramonte Center, Daly City"
     },
@@ -833,7 +833,7 @@
                 }
             }
         },
-        "name": "Bike & View San Francisco Bike Rentals & Tours",
+        "name": "Sunoco",
         "rating": 4,
         "vicinity": "1772 Lombard Street, San Francisco"
     },
@@ -854,7 +854,7 @@
                 }
             }
         },
-        "name": "DD Cycles",
+        "name": "Mobile",
         "rating": 4.8,
         "vicinity": "4049 Balboa Street, San Francisco"
     },
@@ -875,7 +875,7 @@
                 }
             }
         },
-        "name": "Elevation Bike Co.",
+        "name": "Shell",
         "rating": 4.9,
         "vicinity": "2648 Judah Street, San Francisco"
     },
@@ -896,7 +896,7 @@
                 }
             }
         },
-        "name": "Pedal Revolution",
+        "name": "Exxon",
         "rating": 4.3,
         "vicinity": "3085 21st Street, San Francisco"
     },
@@ -917,7 +917,7 @@
                 }
             }
         },
-        "name": "Baygame",
+        "name": "Speedway",
         "rating": 5,
         "vicinity": "665 Eddy Street a, San Francisco"
     },
@@ -938,7 +938,7 @@
                 }
             }
         },
-        "name": "Scarab Cycles",
+        "name": "Sunoco",
         "vicinity": "1999 Bryant Street, San Francisco"
     },
     {
@@ -958,7 +958,7 @@
                 }
             }
         },
-        "name": "Golden Gate Bridge Bike Rentals",
+        "name": "BP",
         "rating": 4.6,
         "vicinity": "2157 Lombard Street, San Francisco"
     },
@@ -979,7 +979,7 @@
                 }
             }
         },
-        "name": "Fiets ophalen",
+        "name": "TA",
         "vicinity": "501 Bay Street, San Francisco"
     },
     {
@@ -999,7 +999,7 @@
                 }
             }
         },
-        "name": "Gling Urban Bikes",
+        "name": "Shell",
         "vicinity": "500 Terry A Francois Boulevard, San Francisco"
     },
     {
@@ -1019,7 +1019,7 @@
                 }
             }
         },
-        "name": "NTP",
+        "name": "Loves",
         "rating": 5,
         "vicinity": "1699 Hawes Street, San Francisco"
     }

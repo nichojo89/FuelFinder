@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.google.codelabs.fuelfinder.place
+package com.nicholssoftware.fuelfinder.place
 
 import android.content.Context
 import androidx.core.content.ContextCompat
@@ -20,10 +20,10 @@ import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.model.BitmapDescriptor
 import com.google.android.gms.maps.model.Marker
 import com.google.android.gms.maps.model.MarkerOptions
-import com.google.codelabs.fuelfinder.BitmapHelper
-import com.google.codelabs.fuelfinder.R
+import com.nicholssoftware.fuelfinder.R
 import com.google.maps.android.clustering.ClusterManager
 import com.google.maps.android.clustering.view.DefaultClusterRenderer
+import com.nicholssoftware.fuelfinder.BitmapHelper
 
 /**
  * A custom cluster renderer for Place objects.
@@ -43,7 +43,7 @@ class PlaceRenderer(
         )
         BitmapHelper.vectorToBitmap(
             context,
-            R.drawable.ic_directions_bike_black_24dp,
+            R.drawable.baseline_local_gas_station_24,
             color
         )
     }

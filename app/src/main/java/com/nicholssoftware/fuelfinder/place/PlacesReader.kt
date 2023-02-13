@@ -12,10 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.google.codelabs.fuelfinder.place
+package com.nicholssoftware.fuelfinder.place
 
 import android.content.Context
-import com.google.codelabs.fuelfinder.R
+import com.nicholssoftware.fuelfinder.R
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import java.io.InputStream

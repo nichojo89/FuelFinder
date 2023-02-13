@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.google.codelabs.fuelfinder
+package com.nicholssoftware.fuelfinder
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -20,7 +20,8 @@ import android.view.View
 import android.widget.TextView
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.model.Marker
-import com.google.codelabs.fuelfinder.place.Place
+import com.nicholssoftware.fuelfinder.R
+import com.nicholssoftware.fuelfinder.place.Place
 
 class MarkerInfoWindowAdapter(private val context: Context) : GoogleMap.InfoWindowAdapter {
     override fun getInfoContents(marker: Marker): View? {

@@ -12,9 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.google.codelabs.fuelfinder
+package com.nicholssoftware.fuelfinder
 
 import android.os.Bundle
+import android.widget.ArrayAdapter
+import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.lifecycleScope
@@ -22,14 +24,15 @@ import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.*
-import com.google.codelabs.fuelfinder.place.Place
-import com.google.codelabs.fuelfinder.place.PlaceRenderer
-import com.google.codelabs.fuelfinder.place.PlacesReader
+import com.nicholssoftware.fuelfinder.R
 import com.google.maps.android.clustering.ClusterManager
 import com.google.maps.android.ktx.addCircle
 import com.google.maps.android.ktx.addMarker
 import com.google.maps.android.ktx.awaitMap
 import com.google.maps.android.ktx.awaitMapLoad
+import com.nicholssoftware.fuelfinder.place.Place
+import com.nicholssoftware.fuelfinder.place.PlaceRenderer
+import com.nicholssoftware.fuelfinder.place.PlacesReader
 
 class MainActivity : AppCompatActivity() {
 
@@ -122,7 +125,7 @@ class MainActivity : AppCompatActivity() {
 
     private val bicycleIcon: BitmapDescriptor by lazy {
         val color = ContextCompat.getColor(this, R.color.colorPrimary)
-        BitmapHelper.vectorToBitmap(this, R.drawable.ic_directions_bike_black_24dp, color)
+        BitmapHelper.vectorToBitmap(this, R.drawable.baseline_local_gas_station_24, color)
     }
 
     // [START maps_android_add_map_codelab_ktx_add_markers]
