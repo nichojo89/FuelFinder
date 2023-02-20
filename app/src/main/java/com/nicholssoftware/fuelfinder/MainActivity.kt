@@ -62,12 +62,7 @@ class MainActivity : AppCompatActivity() {
 
                 val bundle = Bundle()
                 bundle.putString(PLACE_ADDRESS,place.address)
-//                bundle.putString(PLACE_LATLNG,place.latLng)
                 bundle.putString(PLACE_NAME,place.name)
-                bundle.putFloat(PLACE_RATING,place.rating)
-//                bundle.putString(PLACE_POSITION,place.position)
-                bundle.putString(PLACE_SNIPPET,place.snippet)
-                bundle.putString(PLACE_TITLE,place.title)
                 intent.putExtras(bundle)
                 startActivity(intent)
             }
