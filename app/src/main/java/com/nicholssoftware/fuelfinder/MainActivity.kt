@@ -1,5 +1,6 @@
 package com.nicholssoftware.fuelfinder
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
@@ -57,6 +58,18 @@ class MainActivity : AppCompatActivity() {
         val onClickListener =
             AdapterView.OnItemClickListener { _, _, position, _ ->
                 val place = places[position]
+                val intent = Intent(this,FuelPointDetails::class.java)
+
+                val bundle = Bundle()
+                bundle.putString(PLACE_ADDRESS,place.address)
+//                bundle.putString(PLACE_LATLNG,place.latLng)
+                bundle.putString(PLACE_NAME,place.name)
+                bundle.putFloat(PLACE_RATING,place.rating)
+//                bundle.putString(PLACE_POSITION,place.position)
+                bundle.putString(PLACE_SNIPPET,place.snippet)
+                bundle.putString(PLACE_TITLE,place.title)
+                intent.putExtras(bundle)
+                startActivity(intent)
             }
         val adapter = FuelPointAdapter(places,onClickListener)
         fuelLocationsListView.layoutManager = LinearLayoutManager(this)
