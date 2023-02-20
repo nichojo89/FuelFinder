@@ -11,22 +11,23 @@
   <component name="ChangeListManager">
     <list default="true" id="f45f68f1-cd7b-492e-8bf7-52683f4b4bef" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/BitmapHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/BitmapHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/MarkerInfoWindowAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/MarkerInfoWindowAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/place/Place.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/entities/place/Place.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/place/PlaceRenderer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/presentation/PlaceRenderer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/place/PlacesReader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/framework/PlacesReader.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/place/PlacesResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/entities/place/PlacesResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/presentation/FuelPointAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nicholssoftware/fuelfinder/presentation/FuelPointAdapter.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fuel_point_card.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fuel_point_card.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/jon/.android/avd/pixel_3a_-_api_33.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/jonnichols/.android/avd/Pixel_6_API_33.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -73,9 +74,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Data Class" />
         <option value="layoutResourceFile" />
+        <option value="Kotlin Data Class" />
         <option value="Kotlin Class" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="navigationResourceFile" />
       </list>
     </option>
   </component>
@@ -100,7 +103,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;android-custom-view/Users/jonnichols/Library/Android/sdk/sources/android-32/android/view/View.java_SELECTED&quot;: &quot;View&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;memory.settings.postsync.last.time.stamp&quot;: &quot;1676766469309&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
@@ -118,6 +123,9 @@
       <recent name="com.nicholssoftware.fuelfinder.presentation" />
       <recent name="com.nicholssoftware.fuelfinder.entities.place" />
       <recent name="com.example.fuelfinder.data.place" />
+    </key>
+    <key name="android.template.-2111535660">
+      <recent name="com.nicholssoftware.fuelfinder" />
     </key>
   </component>
   <component name="RunManager">

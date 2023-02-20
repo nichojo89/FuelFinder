@@ -1,11 +1,15 @@
 package com.nicholssoftware.fuelfinder
 
 import android.os.Bundle
+import android.view.View
+import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.lifecycleScope
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.SupportMapFragment
@@ -18,6 +22,7 @@ import com.google.maps.android.ktx.awaitMapLoad
 import com.nicholssoftware.fuelfinder.entities.place.Place
 import com.nicholssoftware.fuelfinder.presentation.PlaceRenderer
 import com.nicholssoftware.fuelfinder.framework.PlacesReader
+import com.nicholssoftware.fuelfinder.presentation.FuelPointAdapter
 
 class MainActivity : AppCompatActivity() {
 
@@ -47,15 +52,14 @@ class MainActivity : AppCompatActivity() {
         }
 
         // access the listView from xml file
-        val fuelLocationsListView = findViewById<ListView>(R.id.lv_fuel_locations_list)
+        val fuelLocationsListView = findViewById<RecyclerView>(R.id.lv_fuel_locations_list)
 
-        val x = arrayListOf<Int>()
-        x.add(1)
-        x.add(2)
-        val adapter = ArrayAdapter(
-           this,
-            android.R.layout.simple_list_item_1,
-        places)
+        val onClickListener =
+            AdapterView.OnItemClickListener { _, _, position, _ ->
+                val place = places[position]
+            }
+        val adapter = FuelPointAdapter(places,onClickListener)
+        fuelLocationsListView.layoutManager = LinearLayoutManager(this)
         fuelLocationsListView.adapter = adapter
     }
     // [END maps_android_add_map_codelab_ktx_coroutines]

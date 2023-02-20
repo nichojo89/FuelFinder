@@ -16,4 +16,5 @@
 
 <resources>
   <string name="app_name">FuelFinder</string>
+    <string name="gas_regular">Gas - Regular</string>
 </resources>
