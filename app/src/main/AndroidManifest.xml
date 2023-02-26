@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".FuelPointDetails"
+            android:name=".presentation.Receipt"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.FuelPointDetails"
             android:exported="false" />
 
         <meta-data
@@ -18,7 +21,7 @@
             android:value="AIzaSyBoI32XaNar7gdHYuYJLDfSz8PXqyvWTVQ" />
 
         <activity
-            android:name=".MainActivity"
+            android:name=".presentation.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

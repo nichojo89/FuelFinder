@@ -1,4 +1,4 @@
-package com.nicholssoftware.fuelfinder
+package com.nicholssoftware.fuelfinder.presentation
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,6 +7,7 @@ import android.widget.AdapterView
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.nicholssoftware.fuelfinder.R
 import com.nicholssoftware.fuelfinder.databinding.ActivityFuelPointDetailsBinding
 import com.nicholssoftware.fuelfinder.framework.TransactionRepository
 import com.nicholssoftware.fuelfinder.presentation.TransactionAdapter
@@ -34,7 +35,8 @@ class FuelPointDetails : AppCompatActivity() {
 
         val onClickListener =
             AdapterView.OnItemClickListener { _, _, position, _ ->
-                //TODO Navigate to transaction details
+                val intent = Intent(this,Receipt::class.java)
+                startActivity(intent)
             }
         rv.adapter = TransactionAdapter(transactions,onClickListener)
     }

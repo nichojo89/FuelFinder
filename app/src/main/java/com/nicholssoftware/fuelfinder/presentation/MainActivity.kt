@@ -1,11 +1,8 @@
-package com.nicholssoftware.fuelfinder
+package com.nicholssoftware.fuelfinder.presentation
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import android.widget.AdapterView
-import android.widget.ArrayAdapter
-import android.widget.ListView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.lifecycleScope
@@ -20,10 +17,11 @@ import com.google.maps.android.ktx.addCircle
 import com.google.maps.android.ktx.addMarker
 import com.google.maps.android.ktx.awaitMap
 import com.google.maps.android.ktx.awaitMapLoad
+import com.nicholssoftware.fuelfinder.BitmapHelper
+import com.nicholssoftware.fuelfinder.MarkerInfoWindowAdapter
+import com.nicholssoftware.fuelfinder.R
 import com.nicholssoftware.fuelfinder.entities.place.Place
-import com.nicholssoftware.fuelfinder.presentation.PlaceRenderer
 import com.nicholssoftware.fuelfinder.framework.PlacesReader
-import com.nicholssoftware.fuelfinder.presentation.FuelPointAdapter
 
 class MainActivity : AppCompatActivity() {
 
