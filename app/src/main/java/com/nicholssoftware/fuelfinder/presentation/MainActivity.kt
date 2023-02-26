@@ -23,6 +23,7 @@ import com.nicholssoftware.fuelfinder.R
 import com.nicholssoftware.fuelfinder.entities.place.Place
 import com.nicholssoftware.fuelfinder.framework.PlacesReader
 
+
 class MainActivity : AppCompatActivity() {
 
     private val places: List<Place> by lazy {
