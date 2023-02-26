@@ -28,7 +28,7 @@
                     android:id="@+id/tvFuelPointName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    tools:text="Name"
+                    android:text="Regular"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -50,7 +50,7 @@
             </LinearLayout>
             <ImageView
                 android:layout_weight="1"
-                android:layout_width="24dp"
+                android:layout_width="wrap_content"
                 android:layout_height="24dp"
                 android:layout_gravity="center_vertical|end"
                 app:srcCompat="@drawable/baseline_directions_24" />
