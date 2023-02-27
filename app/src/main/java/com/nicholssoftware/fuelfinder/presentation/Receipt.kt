@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.nicholssoftware.fuelfinder.R
 import kotlinx.android.synthetic.main.activity_receipt.*
+import java.text.NumberFormat
 
 const val TOTAL_AMOUNT = "TOTAL_AMOUNT"
 const val TOTAL_TAX = "TOTAL_TAX"
@@ -27,7 +28,8 @@ class Receipt : AppCompatActivity() {
         tvReceiptAddress.text = address
         tvPumpNumber.text = pumpNumber.toString()
         tvFuelGrade.text = fuelGrade
-        tvPPG.text = ppg.toString()
-        tvTotal.text = total.toString()
+        val formatter = NumberFormat.getCurrencyInstance()
+        tvPPG.text = formatter.format(ppg)
+        tvTotal.text = formatter.format(total)
     }
 }
